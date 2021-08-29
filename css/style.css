@@ -1,0 +1,250 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    
+}
+
+
+header {
+    background:#0083B0;
+    box-shadow: 8px 8px 15px 8px rgba(119, 119, 119, 0.25);
+    height: 100px;
+    width: 100%;
+    color: #fff;
+    font-size: 20px;
+
+    display: flex;
+    justify-content: space-between;
+    padding: 0 150px;
+    align-items: center;
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+    gap: 90px;
+    list-style-type: none;
+}
+
+ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+h1 a {
+    color: #fff;
+    text-decoration: none;
+}
+
+h1 a:hover{
+    text-decoration: none;
+}
+
+.container {
+    height: 90%;
+    display: flex;
+    margin: 3.8rem auto;
+    margin-bottom: 6rem;
+    gap: 80px;
+    justify-content: center;
+    align-items: center;
+}
+
+.container img {
+    width: 450px;
+    height: auto;
+}
+
+.logo img {
+    width: 200px;
+    height: auto;
+    border-radius: 8px 8px;
+}
+
+
+.main-text {
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    justify-content: center;
+}
+
+
+.title h2 {
+    color: #0083B0;
+    font-size: 26px;
+    font-weight: 600;
+    margin-top: -60px;
+
+}
+
+.campo-busca {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    position: relative;
+    max-width: 400px;
+    bottom: -60px;
+    top: 40px;
+}
+
+.campo-busca input {
+    border-bottom: none;
+}
+
+.nova-busca, .submit-lente {
+    position:static;
+    top:0; right:0;
+    z-index:10;
+    border:none;
+    outline:none;
+    background-color: transparent;
+    color:#293132;
+    margin: 0 auto;
+}
+
+hr {
+    position: relative;
+    top: -25px;
+    border-top-width: 0px;
+    border-top-style: solid;
+    border-color: #0083b0;
+}
+
+.formulario h3 {
+    text-align: center;
+    font-size: 32px;
+    font-weight: 500;
+    color: #0083B0;
+}
+
+form {
+    margin: 3rem auto;
+    font-size: 18px;
+    color: #293132;
+    width: 65%;
+    
+}
+
+form h2 {
+    color: #0083B0;
+    font-weight: 400;
+    margin: 20px;
+    font-size: 28px;
+}
+
+
+input,
+select,
+textarea,
+option {
+    padding: 5px;
+    border: none;
+    border-bottom: 1px solid;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+
+.form-row {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin: 20px 0 20px 0;
+}
+
+fieldset {
+    border: none;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: 0 20px;
+}
+
+.cep input {
+    width: 220px;
+    ;
+}
+
+.estado input {
+    width: 220px;
+}
+
+.numero input {
+    width: 150px;
+}
+
+.rua input {
+    width: 500px;
+}
+
+
+button {
+    background-color: #0083B0;
+    border: none;
+    width: 400px;
+    height: 50px;
+    color: white;
+    font-weight: 400;
+    border-radius: 30px;
+    font-size: 18px;
+    margin: 1.5rem auto;
+    cursor: pointer;
+}
+
+#enviar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+span {
+    font-size: 14px;
+    color: red;
+    display: inline-block;
+    font-weight: 400;
+}
+
+.check {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 120px;
+}
+
+
+.check h4{
+    margin-top: 15px;
+    font-weight: 500;
+    font-size: 32px;
+    color: #171717;
+}
+
+.check p {
+    font-weight: 300;
+    font-size: 22px;
+    color: #171717;
+    margin-bottom: 5px;
+}
+
+.check button {
+    width: 200px;
+    margin-bottom: 10px;
+}
+
+.check a {
+    text-decoration: none;
+    color: #171717;
+    margin-top: 0;
+}
+
+a:hover {
+    text-decoration: underline;
+}

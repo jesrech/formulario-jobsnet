@@ -1,0 +1,116 @@
+{
+    "openapi": "3.0.0",
+    "info": {
+        "title": "API do Formulário JobsNet",
+        "description": "API desenvolvida durante o Start Tech da Gama Academy",
+        "version": "0.0.1"
+    },
+    "servers": [
+        {
+            "url": "http://localhost:5000",
+            "description": "Ambiente de densenvolvimento"
+        }
+    ],
+    "paths": {
+        "/registro": {
+            "post": {
+                "summary": "Cadastro do candidato",
+                "description": "Área de cadastro do candidato onde recebe os dados preenchidos",
+                "tags": ["candidato"],
+                "requestBody": {
+                    "content": {
+                        "application/json": {
+                            "schema": {
+                                "properties": {
+                                    "nome": {
+                                        "type": "string"
+                                    },
+                                    "cargo": {
+                                        "type": "string"
+                                    },
+                                    "nascimento": {
+                                        "type": "string"
+                                    },
+                                    "estadoCivil": {
+                                        "type": "string"
+                                    },
+                                    "sexo": {
+                                        "type": "string"
+                                    },
+                                    "cep": {
+                                        "type": "number"
+                                    },
+                                    "rua": {
+                                        "type": "string"
+                                    },
+                                    "numResidencia": {
+                                        "type": "number"
+                                    },
+                                    "bairro": {
+                                        "type": "string"
+                                    },
+                                    "cidade": {
+                                        "type": "string"
+                                    },
+                                    "estado": {
+                                        "type": "string"
+                                    },
+                                    "email": {
+                                        "type": "string"
+                                    },
+                                    "celular": {
+                                        "type": "number"
+                                    },
+                                    "tel1": {
+                                        "type": "number"
+                                    },
+                                    "tel2": {
+                                        "type": "number"
+                                    },
+                                    "identidade": {
+                                        "type": "number"
+                                    },
+                                    "cpf": {
+                                        "type": "number"
+                                    },
+                                    "habilitacao": {
+                                        "type": "string"
+                                    },
+                                    "veiculo": {
+                                        "type": "string"
+                                    }
+                                }
+                            },
+                            "examples": {
+                                "Meu Cadastro": {
+                                    "value": {
+                                        "nome": "Jéssica R",
+                                        "cargo": "Fullstack Dev",
+                                        "nascimento": "12/10/1991",
+                                        "estadoCivil": "Solteira",
+                                        "sexo": "Feminino",
+                                        "cep": "10000000",
+                                        "rua": "Rua Ficticia",
+                                        "numResidencia": "456",
+                                        "bairro": "Imaginaria",
+                                        "cidade": "Joinville",
+                                        "estado": "SC",
+                                        "email": "jssrech@gmail.com",
+                                        "celular": "71988888888",
+                                        "tel1": "2555111551",
+                                        "tel2": "44445554477",
+                                        
+                                        "identidade": "1111111111",
+                                        "cpf": "10000000000",
+                                        "habilitacao": "AB",
+                                        "veiculo": "Não"
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
